@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="images/33.jpg"/>
+    <link rel="shortcut icon" type="image/png" href="images/33.jpg"/>
+    <title>BurpEaze</title>
+    <!-- style lists -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/hover.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/jquery.bxslider.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.transitions.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/feature-carousel.css">
+    <link href="css/jquery-ui-1.9.2.custom.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- montserrat font embed -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+        /******* loader image before page load ******/
+        .no-js #loader {display: none;}.js #loader { display: block; position: absolute; left: 100px; top: 0;}.se-pre-con {position: fixed;left: 0px;top: 0px;width: 100%;height: 100%;z-index: 9999;background: url(images/Preloader_4.gif) center no-repeat #fff;}
+    </style>
+</head>
+<body class="shopping-cart">
+    <!-- loader image before page load starts -->
+    <div class="se-pre-con"></div>
+    <!-- loader image before page load ends -->
+    <!-- main wrapper of the site starts -->
+    <div class="wrapper">
+
+        <!-- ============== Header starts ============== -->
+        <header>
+            <div class="container">
+                <div class="row">
+
+                    <!-- ============== Left logo block starts ============== -->
+                    <div class="col-xs-12 col-sm-3 logo-block">
+                        <figure><a href="/home-version1.html"><img class="img-responsive" src="images/BurpEaze-logo.png" alt="BurpEaze Logo" /></a></figure>
+                    </div>
+                    <!-- ============== Left logo block ends ============== -->
+
+                    <!-- ============== Main navigation starts ============== -->
+                    <div class="col-xs-12 col-sm-7 menu-block">
+                        <nav class="navbar navbar-default">
+                            <div class="container-fluid">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse">
+                                    <ul class="nav navbar-nav text-right pull-right">
+                                        <li class="active"><a href="/about-us.html">About Us</a></li>
+                                        <li><a href="/sample-menu.html">menu</a></li>
+                                        <li><a href="/program.html">programs</a></li>
+                                        <li><a href="/pricing.html">pricing</a></li>
+                                        <li><a href="/blog.html">choose plan</a></li>
+                                    </ul>
+                                </div><!-- /.navbar-collapse -->
+                            </div><!-- /.container-fluid -->
+                        </nav>
+                    </div>
+                    
+                    <div class="col-xs-12 col-sm-2 nav-cart">
+                        <a href="#" class="btn border-btn-small cart-btn pull-right hvr-wobble-horizontal"><i class="fa fa-shopping-cart"></i> 2 Items   </a>
+                    </div>
+                    <!-- ============== Main navigation ends ============== -->
+                </div>
+            </div>
+        </header>
+        <!-- ============== Header ends ============== -->
+
+        <main> <!-- main content starts -->
+            <!-- ============== cart page starts ============== -->
+            
+            <!-- steps -->
+            <div class="block cart-steps">
+                <div class="container">
+                  <div class="row">
+                      <div class="col-xs-12 col-sm-12">                            
+                          <ul class="text-center steps">
+                            <li class="wow fadeInUp step1 current animated" style="visibility: visible; animation-name: fadeInUp;"><a href="#" class="hvr-wobble-top"><span>1</span> Shopping Cart</a></li>
+                            <li class="wow fadeInUp step2 animated" style="visibility: visible; animation-name: fadeInUp;"><a href="#"  class="hvr-wobble-top"><span>2</span> Checkout</a></li>
+                            <li class="wow fadeInUp step3 animated" style="visibility: visible; animation-name: fadeInUp;"><a href="#" class="hvr-wobble-top"><span>3</span> Order Complete</a></li>
+                        </ul>                        
+                      </div>
+                  </div>
+                </div>
+            </div>
+            <!--steps ends-->
+
+            <div class="container">
+                
+                <div class="row block">
+                    <!--shop table-->
+                    <div class="col-xs-12 col-sm-10 col-sm-offset-1 shop-list">
+                        <table class="shop_table wow fadeInLeft">
+                            <thead>
+                                <tr>
+                                    <th class="product-remove">&nbsp;</th>
+                                    <th class="product-name">Product</th>
+                                    <th class="product-price">Price</th>
+                                    <th class="product-quantity">Quantity</th>
+                                    <th class="product-subtotal">Total</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <!--single product-->
+                                <tr>
+                                    <td class="product-remove" data-title="Action">
+                                        <a href="#" class="hvr-wobble-top"><img src="images/close-icon-small.svg" alt="Close icon"></a>
+                                        <a href="#" class="hvr-wobble-top"><img src="images/pencil-icon-small.svg" alt="Edit icon"></a>
+                                    </td>
+
+                                    <td class="product-name"  data-title="Product">
+                                        <figure class="product-thumb"><img src="images/menu-img1.jpg" alt="Product thumb"></figure>
+                                        <div class="prod-disc">
+                                            <h6 class="text-sp">Porridge Fried</h6>
+                                            <span class="text-lt text-sp">With Kiwi</span>
+
+                                            <div class="facts-table">
+                                                <table>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td><span>Calories</span></td>
+                                                            <td><span>800</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><span>Proteins</span></td>
+                                                            <td><span>90g</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><span>Fats</span></td>
+                                                            <td><span>48g</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><span>Carbohydrates</span>  </td>
+                                                            <td><span>67g</span></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+
+                                    </td>
+                                    <td class="product-price"  data-title="Price">
+                                        <h6>$15.90</h6>
+                                    </td>
+                                    <td class="product-quantity"  data-title="Quantity">                                      
+                                        <span class="altera decrescimo hvr-wobble-bottom"><img src="images/minus-small.svg" alt="Minus icon"></span>
+                                        <input type="text" class="txtacrescimo" />
+                                        <span class="altera acrescimo hvr-wobble-bottom"><img src="images/plus-small.svg" alt="Plus icon"></span>
+                                    </td>
+
+                                    <td class="product-subtotal" data-title="Sub Total"><h6>$15.90</h6></td>
+                                </tr>
+                                <!--single product ends-->
+                                
+                                <!--single product-->
+                                <tr>
+                                    <td class="product-remove" data-title="Action">
+                                        <a href="#" class="hvr-wobble-top"><img src="images/close-icon-small.svg" alt="Close icon"></a>
+                                        <a href="#" class="hvr-wobble-top"><img src="images/pencil-icon-small.svg" alt="Edit icon"></a>
+                                    </td>
+
+                                    <td class="product-name"  data-title="Product">
+                                         <figure class="product-thumb"><img src="images/menu-img4.jpg" alt="Product thumb"></figure>
+                                        <div class="prod-disc">
+                                            <h6 class="text-sp">Tommatoes Omelete</h6>
+                                            <span class="text-lt text-sp">With Parsley & Cheese Feta</span>
+
+                                            <div class="facts-table">
+                                                <table>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td><span>Calories</span></td>
+                                                            <td><span>800</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><span>Proteins</span></td>
+                                                            <td><span>90g</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><span>Fats</span></td>
+                                                            <td><span>48g</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><span>Carbohydrates</span>  </td>
+                                                            <td><span>67g</span></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+
+                                    </td>
+                                    <td class="product-price"  data-title="Price">
+                                        <h6>$15.90</h6>
+                                    </td>
+                                    <td class="product-quantity"  data-title="Quantity">                                      
+                                        <span class="altera decrescimo hvr-wobble-bottom"><img src="images/minus-small.svg" alt="Minus icon"></span>
+                                        <input type="text" class="txtacrescimo" />
+                                        <span class="altera acrescimo hvr-wobble-bottom"><img src="images/plus-small.svg" alt="Plus icon"></span>
+                                    </td>
+
+                                    <td class="product-subtotal" data-title="Sub Total"><h6>$15.90</h6></td>
+                                </tr>
+                                <!--single product ends-->                               
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- shop table ends-->
+                    
+                    <!-- nutritation-->
+                    <div class="col-xs-12 col-sm-5 col-sm-offset-1 wow fadeInLeft">
+                        <div class="nutrition-fact">
+                            <h6>Nutrition Facts Calculated</h6>
+                            <div class="facts-table">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td><span>Calories</span></td>
+                                            <td><span>1600</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>Proteins</span></td>
+                                            <td><span>180g</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>Fats</span></td>
+                                            <td><span>96g</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>Carbohydrates</span>  </td>
+                                            <td><span>134g</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- nutritation ends-->
+
+                    <!-- cart proceed -->
+                    <div class="col-xs-12 col-sm-4 col-sm-offset-1 text-right wow fadeInRight">
+                        <div class="coupon">
+                            <form action="#">
+                                <fieldset>
+                                    <label >Coupon Code:</label>
+                                    <input type="text">
+                                </fieldset>
+                            </form>
+                        </div>
+
+                        <div class="cart_totals">
+                            <h4>
+                                <span>Total</span>
+                                $28.0
+                            </h4>
+                        </div>
+
+                        <div class="proceed-to-checkout">
+                            <a href="#" class="btn hvr-wobble-top">CHECKOUT</a>
+                        </div>
+                    </div>
+                    <!-- cart proceed ends-->
+                </div>
+
+                <!-- help block -->
+                <div class="box-soft-gray help-box">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-sm-offset-1 wow left fadeInLeft">
+                            <div class="wrap">
+                                <h3>NEED HELP?</h3>
+                                <h5>We are more than happy to help you. <br/> 
+                                Just click help button below and we will assist you.</h5>
+
+                                <a href="3" class="btn hvr-wobble-top">Help</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- help block ends-->
+                
+            </div>
+            <!-- ============== cart page ends ============== -->
+        </main> <!-- main content ends -->
+
+
+        <!-- ============== footer block starts ============== -->
+        <footer>
+            <div class="top-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4 footer-logo">
+                            <figure><a href="#"><img class="img-responsive" src="images/BurpEaze-logo-white.png" alt="Footer logo" /></a></figure>
+                        </div>
+                        <div class="col-xs-12 col-sm-2 footer-social-links pull-right hidden-md hidden-lg hidden-xs">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook hvr-wobble-top"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter hvr-wobble-top"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus hvr-wobble-top"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram hvr-wobble-top"></i></a></li>
+                                <li><a href="#"><i class="fa fa-tumblr hvr-wobble-top"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 footer-menu">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-3 footer-links-col">
+                                    <span>about</span>
+                                    <ul>
+                                        <li><a href="#">about us</a></li>
+                                        <li><a href="#">contact us</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-xs-12 col-sm-3 footer-links-col">
+                                    <span>press</span>
+                                    <ul>
+                                        <li><a href="#">press release</a></li>
+                                        <li><a href="#">media</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-xs-12 col-sm-3 footer-links-col">
+                                    <span>company</span>
+                                    <ul>
+                                        <li><a href="#">team</a></li>
+                                        <li><a href="#">board</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-xs-12 col-sm-3 footer-links-col">
+                                    <span>term</span>
+                                    <ul>
+                                        <li><a href="#">privacy</a></li>
+                                        <li><a href="#">about cookies</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-2 footer-social-links pull-right hidden-sm">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook hvr-wobble-top"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter hvr-wobble-top"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus hvr-wobble-top"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram hvr-wobble-top"></i></a></li>
+                                <li><a href="#"><i class="fa fa-tumblr hvr-wobble-top"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-footer">
+                <div class="container">
+                    <div class="copyright-text text-center">&copy; 2014-2016 BurpEaze, Inc. ALL RIGHT RESERVED.</div>
+                </div>
+            </div>
+        </footer>
+        <!-- ============== footer block ends ============== -->
+    </div>
+    <!-- main wrapper of the site ends -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery-ui-1.9.2.custom.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jquery.parallax-1.1.3.js"></script>
+    <script src="js/jquery.featureCarousel.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/owl.carousel.js"></script>    
+    <script src="js/jquery.waypoints.js"></script>
+    <script src="js/jquery.counterup.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
